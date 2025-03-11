@@ -1,0 +1,159 @@
+.navbar-nav {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.carousel-inner img {
+    height: 550px;
+}
+
+.ctext{
+    color: white; 
+    text-shadow: 2px 2px white;
+}
+
+body {
+    background-color: lightpink;
+    margin: 0px 20px 20px 20px;
+}
+
+div h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+.page{
+    margin: 50px;
+}
+
+.flex_img {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgr1 {
+    margin: 10px;
+}
+
+.imgr1:hover {
+    flex-basis: 50%;
+}
+
+
+.details{
+    box-sizing: border-box;
+
+}
+
+.info{
+    float: left;
+    width: 50%;
+    padding: 4%;
+}
+
+@media only screen and (max-width:800px) {
+    /* For ipad phones: */
+    .nav-text {
+      position: static;
+    }
+    body {
+        padding: 10px;
+    }
+    .carousel-inner img {
+        height: auto;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        width: 90%;
+    }
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+    .info{
+        float: left;
+        width: 50%;
+        padding: 30px;
+    }
+    .about_img{
+        float: right;
+        margin: 100px 50px 50px 50px;
+        max-width: 100%;
+        height: auto;
+        padding-left: 1px;
+        padding-right: 1x;
+    }
+    div.services{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .nav-text {
+      position: static;
+    }
+    body {
+        padding: 10px;
+    }
+    .carousel-inner img {
+        height: auto;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        width: 90%;
+    }
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+    .info{
+        float: left;
+        width: 50%;
+        padding: 30px;
+    }
+    .about_img{
+        float: right;
+        margin: 110px 0px 110px 500px;
+        max-width: 100%;
+        height: auto;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    div.services{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.services{
+	padding-left: 175px;
+	padding-right: 175px;
+}
+
+.input1{
+    width: 90%;
+    padding: 10px;
+}
+
+button[type="submit"]{
+    text-align: center;
+    color: white;
+    background-color: rgb(221, 8, 143);
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    border: none;
+}
